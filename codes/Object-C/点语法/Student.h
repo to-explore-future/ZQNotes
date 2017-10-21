@@ -9,11 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface Student : NSObject
-//属性修饰符
+//OC：属性修饰符
 
 // assgin copy retain 是一组 属于 并列关系，一个数据只能同时 由其中一个来修饰
-// assgin(缺省)：直接赋值 修饰基本数据类型
-// copy 先release 再copy(先释放就得对象，在拷贝新的副本) 修饰字符串类型
+// assgin(缺省)：直接赋值,没有引用计数，如果一个引用释放了内存 就会导致别的内存再次访问的时候Crash掉-->修饰基本数据类型
+// copy 先release 再copy(先释放旧的对象，在拷贝新的副本) 修饰字符串类型
 // retain 先release 在retain 修饰 除了 基本数据类型和字符串 类型以外的 数据类型
 
 
