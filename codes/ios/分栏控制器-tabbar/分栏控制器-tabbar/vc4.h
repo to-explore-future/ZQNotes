@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  vc4.h
 //  分栏控制器-tabbar
 //
 //  Created by to-explore-future on 17/10/25.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate,UITabBarControllerDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface vc4 : UIViewController
 
 @end
-

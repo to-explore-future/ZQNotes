@@ -16,6 +16,9 @@
 		1B93ACAF1FA066B800AB483E /* vc1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B93ACAE1FA066B800AB483E /* vc1.m */; };
 		1B93ACB21FA066C500AB483E /* vc2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B93ACB11FA066C500AB483E /* vc2.m */; };
 		1B93ACB51FA066CE00AB483E /* vc3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B93ACB41FA066CE00AB483E /* vc3.m */; };
+		1B93ACB81FA073A100AB483E /* vc4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B93ACB71FA073A100AB483E /* vc4.m */; };
+		1B93ACBB1FA073C100AB483E /* vc5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B93ACBA1FA073C100AB483E /* vc5.m */; };
+		1B93ACBE1FA073DB00AB483E /* vc6.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B93ACBD1FA073DB00AB483E /* vc6.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,12 @@
 		1B93ACB11FA066C500AB483E /* vc2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vc2.m; sourceTree = "<group>"; };
 		1B93ACB31FA066CE00AB483E /* vc3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vc3.h; sourceTree = "<group>"; };
 		1B93ACB41FA066CE00AB483E /* vc3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vc3.m; sourceTree = "<group>"; };
+		1B93ACB61FA073A100AB483E /* vc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vc4.h; sourceTree = "<group>"; };
+		1B93ACB71FA073A100AB483E /* vc4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vc4.m; sourceTree = "<group>"; };
+		1B93ACB91FA073C100AB483E /* vc5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vc5.h; path = ../vc5.h; sourceTree = "<group>"; };
+		1B93ACBA1FA073C100AB483E /* vc5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = vc5.m; path = ../vc5.m; sourceTree = "<group>"; };
+		1B93ACBC1FA073DB00AB483E /* vc6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vc6.h; sourceTree = "<group>"; };
+		1B93ACBD1FA073DB00AB483E /* vc6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vc6.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +84,12 @@
 				1B93ACB11FA066C500AB483E /* vc2.m */,
 				1B93ACB31FA066CE00AB483E /* vc3.h */,
 				1B93ACB41FA066CE00AB483E /* vc3.m */,
+				1B93ACB61FA073A100AB483E /* vc4.h */,
+				1B93ACB71FA073A100AB483E /* vc4.m */,
+				1B93ACB91FA073C100AB483E /* vc5.h */,
+				1B93ACBA1FA073C100AB483E /* vc5.m */,
+				1B93ACBC1FA073DB00AB483E /* vc6.h */,
+				1B93ACBD1FA073DB00AB483E /* vc6.m */,
 				1B93AC9C1FA0659600AB483E /* ViewController.h */,
 				1B93AC9D1FA0659600AB483E /* ViewController.m */,
 				1B93AC9F1FA0659600AB483E /* Main.storyboard */,
@@ -171,6 +186,9 @@
 				1B93ACAF1FA066B800AB483E /* vc1.m in Sources */,
 				1B93ACB21FA066C500AB483E /* vc2.m in Sources */,
 				1B93AC981FA0659600AB483E /* main.m in Sources */,
+				1B93ACBE1FA073DB00AB483E /* vc6.m in Sources */,
+				1B93ACBB1FA073C100AB483E /* vc5.m in Sources */,
+				1B93ACB81FA073A100AB483E /* vc4.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +343,7 @@
 				1B93ACAC1FA0659600AB483E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
