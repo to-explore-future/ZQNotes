@@ -32,14 +32,16 @@ ClassA有 setName这个方法：
    		name = inputName;
    		[name retain]; //此处retian，等同于[inputName retain],count等于2
 	}
+	
 	```
-调用时：
+	调用时：
 
 	```
-ClassName *myName = [[ClassName alloc] init];
-[classA setName:myName]; //retain count == 2
-[myName release]; //retain count==1，在ClassA的dealloc中release name才能真正释放内存。
-```
+	ClassName *myName = [[ClassName alloc] init];
+	[classA setName:myName]; //retain count == 2
+	[myName release]; //retain count==1，在ClassA的dealloc中release name才能	真正释放内存。
+	
+	```
 
 2. autorelease 更加tricky，而且很容易被它的名字迷惑。我在这里要强调一下：autorelease不是garbage collection，完全不同于Java或者.Net中的GC。
 autorelease和作用域没有任何关系！
@@ -51,6 +53,7 @@ a.先建立一个autorelease pool
 b.对象从这个autorelease pool里面生成。
 c.对象生成 之后调用autorelease函数，这个函数的作用仅仅是在autorelease pool中做个标记，让pool记得将来release一下这个对象。
 d.程序结束时，pool本身也需要rerlease, 此时pool会把每一个标记为autorelease的对象release一次。如果某个对象此时retain count大于1，这个对象还是没有被销毁。
+
 ```
 上面这个例子应该这样写：
 
@@ -58,6 +61,7 @@ d.程序结束时，pool本身也需要rerlease, 此时pool会把每一个标记
 ClassName *myName = [[[ClassName alloc] init] autorelease];//标记为autorelease
 [classA setName:myName]; //retain count == 2
 [myName release]; //retain count==1，注意，在ClassA的dealloc中不能release name，否则release pool时会release这个retain count为0的对象，这是不对的。
+
 ```
 
 	`记住一点`：如果这个对象是你alloc或者new出来的，你就需要调用release。如果使用autorelease，那么仅在发生过retain的时候release一次（让retain count始终为1）。
