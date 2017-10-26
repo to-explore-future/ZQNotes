@@ -1,0 +1,2 @@
+1.ios 如果一个viewController退出之后 如何清空它所占用的内存。
+
