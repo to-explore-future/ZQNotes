@@ -1,3 +1,9 @@
 1.ios 如果一个viewController退出之后 如何清空它所占用的内存。
 
-2.ios 自定义View
+2.ios 自定义View，能不能像Android一样随意布局View
+
+3.使用最新的网络框架， NSURLSession。 http://www.jianshu.com/p/fafc67475c73
+
+4.JSONKit的使用   https://github.com/johnezang/JSONKit
+
+5.ios sqil 
