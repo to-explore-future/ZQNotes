@@ -1,6 +1,5 @@
 #### ios 改变`UIImageView`的分辨率
 
-
 ```
 - ( UIImage )imageWithImageSimple:( UIImage )image scaledToSize:( CGSize )newSize{
 
