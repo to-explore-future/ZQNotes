@@ -7,3 +7,17 @@
 4.JSONKit的使用   https://github.com/johnezang/JSONKit
 
 5.ios sqil 
+
+6.xcode的bug调试需要时间搞定。
+
+7.搞了四个导航控制器 真的合适吗？我是想知道，一个应用中导航控制器的数量有限制吗？
+
+8.MessageTableViewCell 这个类，
+
+9.ios 平台掌上日租，内存占用极高，简单测试一下居然上了500M.My Good! 我被这炸弹给炸到了。
+
+10.nonatomic 与内存优化的关系
+
+11.UUID：E0A62D1F-3C18-4D74-BFE5-A4167D643966
+
+12.ios 的动画  

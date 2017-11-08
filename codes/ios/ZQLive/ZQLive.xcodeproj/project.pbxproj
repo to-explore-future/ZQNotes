@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3443241FAC662800151287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3443231FAC662800151287 /* main.m */; };
+		1B3443271FAC662800151287 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3443261FAC662800151287 /* AppDelegate.m */; };
+		1B34432D1FAC662800151287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B34432B1FAC662800151287 /* Main.storyboard */; };
+		1B34432F1FAC662800151287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B34432E1FAC662800151287 /* Assets.xcassets */; };
+		1B3443321FAC662800151287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B3443301FAC662800151287 /* LaunchScreen.storyboard */; };
+		1B34434B1FAC884200151287 /* ZQTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B34434A1FAC884200151287 /* ZQTabBarViewController.m */; };
+		1B34434E1FAC885A00151287 /* ZQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B34434D1FAC885A00151287 /* ZQTabBar.m */; };
+		1B5206AD1FAD585000B1580A /* ZQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206AC1FAD585000B1580A /* ZQBaseViewController.m */; };
+		1B5206B11FAD58D600B1580A /* ZQLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206AF1FAD58D600B1580A /* ZQLiveViewController.m */; };
+		1B5206B21FAD58D600B1580A /* ZQLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5206B01FAD58D600B1580A /* ZQLiveViewController.xib */; };
+		1B5206B61FAD58E900B1580A /* ZQMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206B41FAD58E900B1580A /* ZQMeViewController.m */; };
+		1B5206B71FAD58E900B1580A /* ZQMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5206B51FAD58E900B1580A /* ZQMeViewController.xib */; };
+		1B5206BA1FAD5B8E00B1580A /* ZQBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206B91FAD5B8E00B1580A /* ZQBaseNavigationController.m */; };
+		1B5206C21FADAA1700B1580A /* ZQLiveStreamingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5206C01FADAA1700B1580A /* ZQLiveStreamingViewController.m */; };
+		1B5206C31FADAA1700B1580A /* ZQLiveStreamingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5206C11FADAA1700B1580A /* ZQLiveStreamingViewController.xib */; };
+		1B5A857D1FB00BFB002D8A3C /* ZQAttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A857B1FB00BFB002D8A3C /* ZQAttentionViewController.m */; };
+		1B5A857E1FB00BFB002D8A3C /* ZQAttentionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A857C1FB00BFB002D8A3C /* ZQAttentionViewController.xib */; };
+		1B5A85821FB00C0E002D8A3C /* ZQHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A85801FB00C0E002D8A3C /* ZQHotViewController.m */; };
+		1B5A85831FB00C0E002D8A3C /* ZQHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A85811FB00C0E002D8A3C /* ZQHotViewController.xib */; };
+		1B5A85871FB00C28002D8A3C /* ZQNearbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A85851FB00C28002D8A3C /* ZQNearbyViewController.m */; };
+		1B5A85881FB00C28002D8A3C /* ZQNearbyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B5A85861FB00C28002D8A3C /* ZQNearbyViewController.xib */; };
+		1B5A858B1FB03B9F002D8A3C /* ZQCustomLiveStreamingTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5A858A1FB03B9F002D8A3C /* ZQCustomLiveStreamingTitle.m */; };
+		7D3E7A86DE6B39EFD3762826 /* libPods-ZQLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A72B7B267ABE2724EE5F3939 /* libPods-ZQLive.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B34431F1FAC662800151287 /* ZQLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3443231FAC662800151287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B3443251FAC662800151287 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		1B3443261FAC662800151287 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		1B34432C1FAC662800151287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B34432E1FAC662800151287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B3443311FAC662800151287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B3443331FAC662800151287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B3443471FAC6B9800151287 /* ZQMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQMacro.h; sourceTree = "<group>"; };
+		1B3443481FAC6E8800151287 /* ZQLive.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQLive.pch; sourceTree = "<group>"; };
+		1B3443491FAC884200151287 /* ZQTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTabBarViewController.h; sourceTree = "<group>"; };
+		1B34434A1FAC884200151287 /* ZQTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTabBarViewController.m; sourceTree = "<group>"; };
+		1B34434C1FAC885A00151287 /* ZQTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTabBar.h; sourceTree = "<group>"; };
+		1B34434D1FAC885A00151287 /* ZQTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTabBar.m; sourceTree = "<group>"; };
+		1B5206AB1FAD585000B1580A /* ZQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQBaseViewController.h; sourceTree = "<group>"; };
+		1B5206AC1FAD585000B1580A /* ZQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQBaseViewController.m; sourceTree = "<group>"; };
+		1B5206AE1FAD58D600B1580A /* ZQLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQLiveViewController.h; sourceTree = "<group>"; };
+		1B5206AF1FAD58D600B1580A /* ZQLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQLiveViewController.m; sourceTree = "<group>"; };
+		1B5206B01FAD58D600B1580A /* ZQLiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZQLiveViewController.xib; sourceTree = "<group>"; };
+		1B5206B31FAD58E900B1580A /* ZQMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQMeViewController.h; sourceTree = "<group>"; };
+		1B5206B41FAD58E900B1580A /* ZQMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQMeViewController.m; sourceTree = "<group>"; };
+		1B5206B51FAD58E900B1580A /* ZQMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZQMeViewController.xib; sourceTree = "<group>"; };
+		1B5206B81FAD5B8E00B1580A /* ZQBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQBaseNavigationController.h; sourceTree = "<group>"; };
+		1B5206B91FAD5B8E00B1580A /* ZQBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQBaseNavigationController.m; sourceTree = "<group>"; };
+		1B5206BF1FADAA1700B1580A /* ZQLiveStreamingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQLiveStreamingViewController.h; sourceTree = "<group>"; };
+		1B5206C01FADAA1700B1580A /* ZQLiveStreamingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQLiveStreamingViewController.m; sourceTree = "<group>"; };
+		1B5206C11FADAA1700B1580A /* ZQLiveStreamingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZQLiveStreamingViewController.xib; sourceTree = "<group>"; };
+		1B5A857A1FB00BFB002D8A3C /* ZQAttentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQAttentionViewController.h; sourceTree = "<group>"; };
+		1B5A857B1FB00BFB002D8A3C /* ZQAttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQAttentionViewController.m; sourceTree = "<group>"; };
+		1B5A857C1FB00BFB002D8A3C /* ZQAttentionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZQAttentionViewController.xib; sourceTree = "<group>"; };
+		1B5A857F1FB00C0E002D8A3C /* ZQHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQHotViewController.h; sourceTree = "<group>"; };
+		1B5A85801FB00C0E002D8A3C /* ZQHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQHotViewController.m; sourceTree = "<group>"; };
+		1B5A85811FB00C0E002D8A3C /* ZQHotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZQHotViewController.xib; sourceTree = "<group>"; };
+		1B5A85841FB00C28002D8A3C /* ZQNearbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQNearbyViewController.h; sourceTree = "<group>"; };
+		1B5A85851FB00C28002D8A3C /* ZQNearbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQNearbyViewController.m; sourceTree = "<group>"; };
+		1B5A85861FB00C28002D8A3C /* ZQNearbyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZQNearbyViewController.xib; sourceTree = "<group>"; };
+		1B5A85891FB03B9F002D8A3C /* ZQCustomLiveStreamingTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQCustomLiveStreamingTitle.h; sourceTree = "<group>"; };
+		1B5A858A1FB03B9F002D8A3C /* ZQCustomLiveStreamingTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQCustomLiveStreamingTitle.m; sourceTree = "<group>"; };
+		49457E5940ED08A3D6FC7BF8 /* Pods-ZQLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZQLive/Pods-ZQLive.release.xcconfig"; sourceTree = "<group>"; };
+		9DCC3C0C7D1F73108826087E /* Pods-ZQLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZQLive/Pods-ZQLive.debug.xcconfig"; sourceTree = "<group>"; };
+		A72B7B267ABE2724EE5F3939 /* libPods-ZQLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZQLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B34431C1FAC662800151287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3E7A86DE6B39EFD3762826 /* libPods-ZQLive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101A3088177B749FCEB8900F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DCC3C0C7D1F73108826087E /* Pods-ZQLive.debug.xcconfig */,
+				49457E5940ED08A3D6FC7BF8 /* Pods-ZQLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1B3443161FAC662800151287 = {
+			isa = PBXGroup;
+			children = (
+				1B3443211FAC662800151287 /* ZQLive */,
+				1B3443201FAC662800151287 /* Products */,
+				101A3088177B749FCEB8900F /* Pods */,
+				C569172B3BBF16778DFD182C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B3443201FAC662800151287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B34431F1FAC662800151287 /* ZQLive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B3443211FAC662800151287 /* ZQLive */ = {
+			isa = PBXGroup;
+			children = (
+				1B3443391FAC684000151287 /* Class */,
+				1B3443221FAC662800151287 /* Supporting Files */,
+			);
+			path = ZQLive;
+			sourceTree = "<group>";
+		};
+		1B3443221FAC662800151287 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B34432B1FAC662800151287 /* Main.storyboard */,
+				1B34432E1FAC662800151287 /* Assets.xcassets */,
+				1B3443301FAC662800151287 /* LaunchScreen.storyboard */,
+				1B3443331FAC662800151287 /* Info.plist */,
+				1B3443231FAC662800151287 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B3443391FAC684000151287 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				1B34433A1FAC684000151287 /* base */,
+				1B34433B1FAC684000151287 /* helper */,
+				1B34433C1FAC684000151287 /* launch */,
+				1B34433D1FAC684000151287 /* lib */,
+				1B34433E1FAC684000151287 /* live */,
+				1B34433F1FAC684000151287 /* Me */,
+				1B3443441FAC684000151287 /* network */,
+				1B3443451FAC684000151287 /* other */,
+				1B3443461FAC684000151287 /* show */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		1B34433A1FAC684000151287 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				1B3443251FAC662800151287 /* AppDelegate.h */,
+				1B3443261FAC662800151287 /* AppDelegate.m */,
+				1B5206B81FAD5B8E00B1580A /* ZQBaseNavigationController.h */,
+				1B5206B91FAD5B8E00B1580A /* ZQBaseNavigationController.m */,
+				1B3443471FAC6B9800151287 /* ZQMacro.h */,
+				1B3443481FAC6E8800151287 /* ZQLive.pch */,
+				1B3443491FAC884200151287 /* ZQTabBarViewController.h */,
+				1B34434A1FAC884200151287 /* ZQTabBarViewController.m */,
+				1B34434C1FAC885A00151287 /* ZQTabBar.h */,
+				1B34434D1FAC885A00151287 /* ZQTabBar.m */,
+				1B5206AB1FAD585000B1580A /* ZQBaseViewController.h */,
+				1B5206AC1FAD585000B1580A /* ZQBaseViewController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		1B34433B1FAC684000151287 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		1B34433C1FAC684000151287 /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				1B5206BB1FADA68A00B1580A /* handler */,
+				1B5206BC1FADA68A00B1580A /* model */,
+				1B5206BD1FADA68A00B1580A /* view */,
+				1B5206BE1FADA68A00B1580A /* viewController */,
+			);
+			path = launch;
+			sourceTree = "<group>";
+		};
+		1B34433D1FAC684000151287 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1B34433E1FAC684000151287 /* live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = live;
+			sourceTree = "<group>";
+		};
+		1B34433F1FAC684000151287 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				1B3443401FAC684000151287 /* controller */,
+				1B3443411FAC684000151287 /* handler */,
+				1B3443421FAC684000151287 /* model */,
+				1B3443431FAC684000151287 /* view */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		1B3443401FAC684000151287 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1B3443411FAC684000151287 /* handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = handler;
+			sourceTree = "<group>";
+		};
+		1B3443421FAC684000151287 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1B3443431FAC684000151287 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1B3443441FAC684000151287 /* network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		1B3443451FAC684000151287 /* other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		1B3443461FAC684000151287 /* show */ = {
+			isa = PBXGroup;
+			children = (
+				1B5206A71FAD4F7400B1580A /* viewController */,
+				1B5206A81FAD4F7400B1580A /* handler */,
+				1B5206A91FAD4F7400B1580A /* model */,
+				1B5206AA1FAD4F7400B1580A /* view */,
+			);
+			path = show;
+			sourceTree = "<group>";
+		};
+		1B5206A71FAD4F7400B1580A /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A857A1FB00BFB002D8A3C /* ZQAttentionViewController.h */,
+				1B5A857B1FB00BFB002D8A3C /* ZQAttentionViewController.m */,
+				1B5A857C1FB00BFB002D8A3C /* ZQAttentionViewController.xib */,
+				1B5A857F1FB00C0E002D8A3C /* ZQHotViewController.h */,
+				1B5A85801FB00C0E002D8A3C /* ZQHotViewController.m */,
+				1B5A85811FB00C0E002D8A3C /* ZQHotViewController.xib */,
+				1B5206AE1FAD58D600B1580A /* ZQLiveViewController.h */,
+				1B5206AF1FAD58D600B1580A /* ZQLiveViewController.m */,
+				1B5206B01FAD58D600B1580A /* ZQLiveViewController.xib */,
+				1B5206B31FAD58E900B1580A /* ZQMeViewController.h */,
+				1B5206B41FAD58E900B1580A /* ZQMeViewController.m */,
+				1B5206B51FAD58E900B1580A /* ZQMeViewController.xib */,
+				1B5A85841FB00C28002D8A3C /* ZQNearbyViewController.h */,
+				1B5A85851FB00C28002D8A3C /* ZQNearbyViewController.m */,
+				1B5A85861FB00C28002D8A3C /* ZQNearbyViewController.xib */,
+			);
+			name = viewController;
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1B5206A81FAD4F7400B1580A /* handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = handler;
+			sourceTree = "<group>";
+		};
+		1B5206A91FAD4F7400B1580A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1B5206AA1FAD4F7400B1580A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1B5A85891FB03B9F002D8A3C /* ZQCustomLiveStreamingTitle.h */,
+				1B5A858A1FB03B9F002D8A3C /* ZQCustomLiveStreamingTitle.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1B5206BB1FADA68A00B1580A /* handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = handler;
+			sourceTree = "<group>";
+		};
+		1B5206BC1FADA68A00B1580A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1B5206BD1FADA68A00B1580A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1B5206BE1FADA68A00B1580A /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B5206BF1FADAA1700B1580A /* ZQLiveStreamingViewController.h */,
+				1B5206C01FADAA1700B1580A /* ZQLiveStreamingViewController.m */,
+				1B5206C11FADAA1700B1580A /* ZQLiveStreamingViewController.xib */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		C569172B3BBF16778DFD182C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A72B7B267ABE2724EE5F3939 /* libPods-ZQLive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B34431E1FAC662800151287 /* ZQLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B3443361FAC662800151287 /* Build configuration list for PBXNativeTarget "ZQLive" */;
+			buildPhases = (
+				1968E26CEC78F65EF2474157 /* [CP] Check Pods Manifest.lock */,
+				1B34431B1FAC662800151287 /* Sources */,
+				1B34431C1FAC662800151287 /* Frameworks */,
+				1B34431D1FAC662800151287 /* Resources */,
+				DEF02A35C96A049A791E183F /* [CP] Embed Pods Frameworks */,
+				6F495B34A3C1D14D52651037 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZQLive;
+			productName = ZQLive;
+			productReference = 1B34431F1FAC662800151287 /* ZQLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B3443171FAC662800151287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZQ;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "to-explore-future";
+				TargetAttributes = {
+					1B34431E1FAC662800151287 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1B34431A1FAC662800151287 /* Build configuration list for PBXProject "ZQLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B3443161FAC662800151287;
+			productRefGroup = 1B3443201FAC662800151287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B34431E1FAC662800151287 /* ZQLive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B34431D1FAC662800151287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5A857E1FB00BFB002D8A3C /* ZQAttentionViewController.xib in Resources */,
+				1B3443321FAC662800151287 /* LaunchScreen.storyboard in Resources */,
+				1B34432F1FAC662800151287 /* Assets.xcassets in Resources */,
+				1B5206C31FADAA1700B1580A /* ZQLiveStreamingViewController.xib in Resources */,
+				1B5A85881FB00C28002D8A3C /* ZQNearbyViewController.xib in Resources */,
+				1B34432D1FAC662800151287 /* Main.storyboard in Resources */,
+				1B5A85831FB00C0E002D8A3C /* ZQHotViewController.xib in Resources */,
+				1B5206B71FAD58E900B1580A /* ZQMeViewController.xib in Resources */,
+				1B5206B21FAD58D600B1580A /* ZQLiveViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1968E26CEC78F65EF2474157 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZQLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F495B34A3C1D14D52651037 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZQLive/Pods-ZQLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF02A35C96A049A791E183F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZQLive/Pods-ZQLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B34431B1FAC662800151287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5206BA1FAD5B8E00B1580A /* ZQBaseNavigationController.m in Sources */,
+				1B34434B1FAC884200151287 /* ZQTabBarViewController.m in Sources */,
+				1B5A85871FB00C28002D8A3C /* ZQNearbyViewController.m in Sources */,
+				1B5A857D1FB00BFB002D8A3C /* ZQAttentionViewController.m in Sources */,
+				1B5206B11FAD58D600B1580A /* ZQLiveViewController.m in Sources */,
+				1B5A858B1FB03B9F002D8A3C /* ZQCustomLiveStreamingTitle.m in Sources */,
+				1B5A85821FB00C0E002D8A3C /* ZQHotViewController.m in Sources */,
+				1B5206C21FADAA1700B1580A /* ZQLiveStreamingViewController.m in Sources */,
+				1B5206B61FAD58E900B1580A /* ZQMeViewController.m in Sources */,
+				1B3443271FAC662800151287 /* AppDelegate.m in Sources */,
+				1B3443241FAC662800151287 /* main.m in Sources */,
+				1B5206AD1FAD585000B1580A /* ZQBaseViewController.m in Sources */,
+				1B34434E1FAC885A00151287 /* ZQTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B34432B1FAC662800151287 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B34432C1FAC662800151287 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B3443301FAC662800151287 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B3443311FAC662800151287 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B3443341FAC662800151287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B3443351FAC662800151287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B3443371FAC662800151287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DCC3C0C7D1F73108826087E /* Pods-ZQLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZQLive/Class/base/ZQLive.pch";
+				INFOPLIST_FILE = ZQLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zq.ZQLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B3443381FAC662800151287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49457E5940ED08A3D6FC7BF8 /* Pods-ZQLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZQLive/Class/base/ZQLive.pch";
+				INFOPLIST_FILE = ZQLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zq.ZQLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B34431A1FAC662800151287 /* Build configuration list for PBXProject "ZQLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B3443341FAC662800151287 /* Debug */,
+				1B3443351FAC662800151287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B3443361FAC662800151287 /* Build configuration list for PBXNativeTarget "ZQLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B3443371FAC662800151287 /* Debug */,
+				1B3443381FAC662800151287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B3443171FAC662800151287 /* Project object */;
+}
