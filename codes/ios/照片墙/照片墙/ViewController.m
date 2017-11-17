@@ -32,8 +32,8 @@
     sv.backgroundColor = [UIColor orangeColor];
     sv.contentSize = CGSizeMake(width, height * 2);
     sv.userInteractionEnabled = YES;
-    NSInteger imageColum = 3;//图片的列数
-    NSInteger spaceBetweenImage = 5;//两个图片之间的间距
+    NSInteger imageColum = 3;               //图片的列数
+    NSInteger spaceBetweenImage = 5;        //两个图片之间的间距
     //图片的分辨率 480 * 800
     NSInteger imageWidth = (width - (imageColum +1)*spaceBetweenImage) / imageColum ;//图片宽度
     NSInteger imageHeight = (imageWidth * 800) / 480  ;//图片高度
@@ -72,17 +72,13 @@
         //单个手指
         tap.numberOfTouchesRequired = 1;
         [iv addGestureRecognizer:tap];
-        
         [sv addSubview:iv];
     }
-    
     /*
      获取图片的尺寸
      CGFloat fixelW = CGImageGetWidth(image.CGImage);
      CGFloat fixelH = CGImageGetHeight(image.CGImage);
      */
-   
-    
     [self.view addSubview:sv];
 }
 
@@ -112,15 +108,7 @@
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-- (void)aaa{
-    
-
-}
 
 //这个方法 可以把一个 UIImageView 转变成一个 新的分辨率的 UIImageView
 - (UIImage *)imageWithImageSimple:(UIImage*)image scaledToSize:(CGSize)newSize{

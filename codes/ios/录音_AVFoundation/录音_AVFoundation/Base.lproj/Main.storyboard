@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TpI-i4-ErK">
+                                <rect key="frame" x="156" y="186" width="62" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="q4D-cs-F5s"/>
+                                    <constraint firstAttribute="height" constant="30" id="s2q-sQ-gdI"/>
+                                </constraints>
+                                <state key="normal" title="结束录音"/>
+                                <connections>
+                                    <action selector="stop" destination="BYZ-38-t0r" eventType="touchUpInside" id="HfT-Ey-DGP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onv-Kd-PxC">
+                                <rect key="frame" x="156" y="76" width="62" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2oR-aO-nF6"/>
+                                    <constraint firstAttribute="width" constant="62" id="eNj-0L-1EU"/>
+                                </constraints>
+                                <state key="normal" title="开始录音"/>
+                                <connections>
+                                    <action selector="start" destination="BYZ-38-t0r" eventType="touchUpInside" id="RjV-Ah-L0K"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="onv-Kd-PxC" secondAttribute="trailing" constant="141" id="VI3-Aq-DnT"/>
+                            <constraint firstItem="TpI-i4-ErK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XEZ-ke-waz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TpI-i4-ErK" secondAttribute="trailing" constant="141" id="Z6f-2S-2qs"/>
+                            <constraint firstItem="TpI-i4-ErK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="140" id="aEq-4H-qGJ"/>
+                            <constraint firstItem="TpI-i4-ErK" firstAttribute="height" secondItem="onv-Kd-PxC" secondAttribute="height" id="b2g-Kn-znB"/>
+                            <constraint firstItem="onv-Kd-PxC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="140" id="cm3-oY-wax"/>
+                            <constraint firstItem="onv-Kd-PxC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o15-eV-LNJ"/>
+                            <constraint firstItem="TpI-i4-ErK" firstAttribute="top" secondItem="onv-Kd-PxC" secondAttribute="bottom" constant="80" id="oWu-tm-RmY"/>
+                            <constraint firstItem="TpI-i4-ErK" firstAttribute="width" secondItem="onv-Kd-PxC" secondAttribute="width" id="sHe-1l-lCf"/>
+                            <constraint firstItem="onv-Kd-PxC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="56" id="swE-Yr-DxS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

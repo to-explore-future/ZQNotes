@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>驴妈妈</string>
+		<key>icon</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>今日头条</string>
+		<key>icon</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>大H</string>
+		<key>icon</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>微博</string>
+		<key>icon</key>
+		<string>4</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>美团</string>
+		<key>icon</key>
+		<string>5</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>11.11</string>
+		<key>icon</key>
+		<string>6</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>闹钟</string>
+		<key>icon</key>
+		<string>7</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>陆金所</string>
+		<key>icon</key>
+		<string>8</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>这是什么</string>
+		<key>icon</key>
+		<string>9</string>
+	</dict>
+</array>
+</plist>

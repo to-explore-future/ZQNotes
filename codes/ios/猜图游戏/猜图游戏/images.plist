@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>options</key>
+		<string>阿里巴巴创始人马云马云</string>
+		<key>title</key>
+		<string>阿里巴巴创始人</string>
+		<key>icon</key>
+		<string>马云</string>
+		<key>answer</key>
+		<string>马云</string>
+	</dict>
+	<dict>
+		<key>options</key>
+		<string>著名武大明星李连杰李连杰</string>
+		<key>title</key>
+		<string>著名武大明星</string>
+		<key>icon</key>
+		<string>李连杰</string>
+		<key>answer</key>
+		<string>李连杰</string>
+	</dict>
+	<dict>
+		<key>options</key>
+		<string>百度创始人李彦宏李彦宏</string>
+		<key>title</key>
+		<string>百度创始人</string>
+		<key>icon</key>
+		<string>李彦宏</string>
+		<key>answer</key>
+		<string>李彦宏</string>
+	</dict>
+	<dict>
+		<key>options</key>
+		<string>腾讯创始人马化腾马化腾</string>
+		<key>title</key>
+		<string>腾讯创始人</string>
+		<key>icon</key>
+		<string>马化腾</string>
+		<key>answer</key>
+		<string>马化腾</string>
+	</dict>
+	<dict>
+		<key>options</key>
+		<string>万达创始人王健林王健林</string>
+		<key>title</key>
+		<string>万达创始人</string>
+		<key>icon</key>
+		<string>王健林</string>
+		<key>answer</key>
+		<string>王健林</string>
+	</dict>
+	<dict>
+		<key>options</key>
+		<string>万科创始人王石王石</string>
+		<key>title</key>
+		<string>万科创始人</string>
+		<key>icon</key>
+		<string>王石</string>
+		<key>answer</key>
+		<string>王石</string>
+	</dict>
+</array>
+</plist>
