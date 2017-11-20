@@ -1,13 +1,14 @@
 //
 //  AppDelegate.m
-//  导航控制器动画
+//  关于ScrollView
 //
-//  Created by to-explore-future on 17/10/28.
+//  Created by to-explore-future on 17/11/18.
 //  Copyright © 2017年 to-explore-future. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,15 +17,6 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    ViewController *vc = [[ViewController alloc] init];
-    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
-    self.window.rootViewController = na;
-    
-    
-    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -57,7 +57,7 @@
 // P1:对话框本身
 // P2:按钮的索引
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
-    NSLog(@"第 %i 个按钮被点击",buttonIndex);
+    NSLog(@"第 %li 个按钮被点击",(long)buttonIndex);
 }
 
 - (void)alertView:(UIAlertView *)alertView willDismissWithButtonIndex:(NSInteger)buttonIndex{

@@ -63,8 +63,6 @@
     [self.view addSubview:_stepper];
 }
 
-
-
 - (void) step{
     NSLog(@"步进了,value= %f",_stepper.value);
 }
