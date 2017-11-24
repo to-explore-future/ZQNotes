@@ -69,7 +69,7 @@
 -(void)startClick{
     ViewControllerHome * home = [[ViewControllerHome alloc] init];
 //    [self presentViewController:home animated:YES completion:nil];
-    [self presentModalViewController:UIModalTransitionStyleCrossDissolve animated:YES];
+//    [self presentModalViewController:UIModalTransitionStyleCrossDissolve animated:YES];
     
 }
 
