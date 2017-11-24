@@ -21,8 +21,6 @@
 
 @implementation tableFooterView
 
-
-
 - (IBAction)loadMoreClick:(id)sender {
    //当点击这个按钮的时候，去网络请求数据 ，然后把新的数据 加载到集合 然后显示出来
     //1.显示正在加载
@@ -40,9 +38,12 @@
             
             [self.loadingView setHidden:YES];
             //执行完毕之后把 footerView 显示出来
-            
         }
     });
-    
+}
+
++(instancetype)getInstance{
+    tableFooterView * footerView = [[[NSBundle mainBundle] loadNibNamed:@"tableFooterView" owner:nil options:nil] firstObject];
+    return footerView;
 }
 @end

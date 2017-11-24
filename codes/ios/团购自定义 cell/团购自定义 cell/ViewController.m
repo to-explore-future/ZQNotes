@@ -29,10 +29,10 @@
 //    self.tableView.tableFooterView = button;
 //    button.frame = CGRectMake(20, 20, 100, 300);
 //    button.backgroundColor = [UIColor redColor];
-    tableFooterView * footerView = [[[NSBundle mainBundle] loadNibNamed:@"tableFooterView" owner:nil options:nil] firstObject];
+    //创建对象的事情交给这个对象自己去创建
+    tableFooterView * footerView = [tableFooterView getInstance];
     self.tableView.tableFooterView = footerView;
     footerView.delegate = self;
-    
 }
 
 #pragma mark - lazyLoad

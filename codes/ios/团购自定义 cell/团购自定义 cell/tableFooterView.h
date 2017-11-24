@@ -29,4 +29,6 @@
 
 @property(nonatomic,weak)id<tableFooterViewDelegate> delegate;
 
++(instancetype)getInstance;
+
 @end
