@@ -37,9 +37,11 @@
         NSString    * filePath      = [[NSBundle mainBundle] pathForResource:imageName ofType:@"jpg"];
 //        UIImage     * image         = [UIImage imageNamed:imageName];
         UIImage     * image         = [UIImage imageWithContentsOfFile:filePath];
+        
         UIImageView * imageView     = [[UIImageView alloc] initWithImage:image];
         CGFloat       x             = i * SCREEN_WIDTH;
-        imageView.frame             = CGRectMake(x, 0 , SCREEN_WIDTH, SCREEN_HEIGHT);
+        imageView.frame             = CGRectMake( x , 0 , SCREEN_WIDTH, SCREEN_HEIGHT);
+//        imageView.contentMode       = UIViewContentModeScaleAspectFill;
         [self.scrollView addSubview: imageView];
     }
 }
@@ -68,9 +70,7 @@
 
 -(void)startClick{
     ViewControllerHome * home = [[ViewControllerHome alloc] init];
-//    [self presentViewController:home animated:YES completion:nil];
-//    [self presentModalViewController:UIModalTransitionStyleCrossDissolve animated:YES];
-    
+    [self presentViewController:home animated:YES completion:nil];
 }
 
 

@@ -13,9 +13,6 @@
 		1B91E6C41FA42DD7001F58DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B91E6C21FA42DD7001F58DC /* Main.storyboard */; };
 		1B91E6C61FA42DD7001F58DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B91E6C51FA42DD7001F58DC /* Assets.xcassets */; };
 		1B91E6C91FA42DD7001F58DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B91E6C71FA42DD7001F58DC /* LaunchScreen.storyboard */; };
-		1B91E6D11FA4507A001F58DC /* 006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B91E6D01FA4507A001F58DC /* 006.jpg */; };
-		1B91E6D31FA4509A001F58DC /* 007.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B91E6D21FA4509A001F58DC /* 007.jpg */; };
-		1B91E6D51FA4509F001F58DC /* 0016.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B91E6D41FA4509F001F58DC /* 0016.jpg */; };
 		1B91E6DB1FA453B1001F58DC /* vc2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B91E6DA1FA453B1001F58DC /* vc2.m */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +27,6 @@
 		1B91E6C51FA42DD7001F58DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B91E6C81FA42DD7001F58DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B91E6CA1FA42DD7001F58DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B91E6D01FA4507A001F58DC /* 006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 006.jpg; path = ../../../../../../Downloads/006.jpg; sourceTree = "<group>"; };
-		1B91E6D21FA4509A001F58DC /* 007.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 007.jpg; path = ../../../../../../Downloads/007.jpg; sourceTree = "<group>"; };
-		1B91E6D41FA4509F001F58DC /* 0016.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0016.jpg; path = ../../../../../../Downloads/0016.jpg; sourceTree = "<group>"; };
 		1B91E6D91FA453B1001F58DC /* vc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vc2.h; path = ../vc2.h; sourceTree = "<group>"; };
 		1B91E6DA1FA453B1001F58DC /* vc2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = vc2.m; path = ../vc2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,9 +45,6 @@
 		1B91E6AD1FA42DD6001F58DC = {
 			isa = PBXGroup;
 			children = (
-				1B91E6D01FA4507A001F58DC /* 006.jpg */,
-				1B91E6D21FA4509A001F58DC /* 007.jpg */,
-				1B91E6D41FA4509F001F58DC /* 0016.jpg */,
 				1B91E6B81FA42DD6001F58DC /* 导航控制器动画 */,
 				1B91E6B71FA42DD6001F58DC /* Products */,
 			);
@@ -151,11 +142,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B91E6D11FA4507A001F58DC /* 006.jpg in Resources */,
 				1B91E6C91FA42DD7001F58DC /* LaunchScreen.storyboard in Resources */,
-				1B91E6D51FA4509F001F58DC /* 0016.jpg in Resources */,
 				1B91E6C61FA42DD7001F58DC /* Assets.xcassets in Resources */,
-				1B91E6D31FA4509A001F58DC /* 007.jpg in Resources */,
 				1B91E6C41FA42DD7001F58DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +313,7 @@
 				1B91E6CF1FA42DD7001F58DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
