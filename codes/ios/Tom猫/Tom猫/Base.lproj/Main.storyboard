@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -17,40 +17,53 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="angry_00.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="R4p-wV-Hnl" userLabel="tom">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="angry_00.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="R4p-wV-Hnl" userLabel="tom">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzI-XX-QP2" userLabel="drink">
-                                <rect key="frame" x="9" y="363" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="drink"/>
-                                <connections>
-                                    <action selector="drink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jo0-MR-pDt"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M05-VN-Eyl" userLabel="drink">
-                                <rect key="frame" x="9" y="474" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="cymbal"/>
-                                <connections>
-                                    <action selector="drink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ncw-lB-ARY"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMK-Uu-gxi" userLabel="drink">
-                                <rect key="frame" x="9" y="573" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMK-Uu-gxi" userLabel="drink">
+                                <rect key="frame" x="9" y="280" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" image="drink"/>
                                 <connections>
                                     <action selector="drink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pic-1E-cBF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M05-VN-Eyl" userLabel="drink">
+                                <rect key="frame" x="9" y="210" width="60" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="cymbal"/>
+                                <connections>
+                                    <action selector="drink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ncw-lB-ARY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzI-XX-QP2" userLabel="drink">
+                                <rect key="frame" x="9" y="140" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.91310127620000003" green="0.91310127620000003" blue="0.91310127620000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="drink"/>
+                                <connections>
+                                    <action selector="drink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jo0-MR-pDt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="R4p-wV-Hnl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="02Z-wV-1SD"/>
+                            <constraint firstItem="M05-VN-Eyl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2gs-rd-zf9"/>
+                            <constraint firstItem="DzI-XX-QP2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-70" id="4PI-nt-139"/>
+                            <constraint firstItem="M05-VN-Eyl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="APX-wt-y4x"/>
+                            <constraint firstAttribute="trailing" secondItem="R4p-wV-Hnl" secondAttribute="trailing" id="Mug-Kj-K8H"/>
+                            <constraint firstItem="CMK-Uu-gxi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="g9j-yX-7Jc"/>
+                            <constraint firstItem="DzI-XX-QP2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="grI-CQ-KGy"/>
+                            <constraint firstItem="R4p-wV-Hnl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m67-ze-2Hk"/>
+                            <constraint firstItem="R4p-wV-Hnl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nDe-hi-gdw"/>
+                            <constraint firstAttribute="bottom" secondItem="R4p-wV-Hnl" secondAttribute="bottom" id="pju-wR-QxV"/>
+                            <constraint firstItem="R4p-wV-Hnl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="szW-Yd-peJ"/>
+                            <constraint firstItem="CMK-Uu-gxi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="70" id="yMl-YA-Gz8"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="tomCat" destination="R4p-wV-Hnl" id="qbH-Yt-UO1"/>
@@ -58,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-476" y="115"/>
+            <point key="canvasLocation" x="-1674" y="15"/>
         </scene>
     </scenes>
     <resources>
