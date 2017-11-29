@@ -1,4 +1,4 @@
-#### [__NSCFArray removeObjectAtIndex:]: mutating method sent to immutable object
+#### NSCFArray removeObjectAtIndex:]: mutating method sent to immutable object
 
 找遍了了所有的地方，使用的都是 NSmutableArray 很郁闷 怎么就爆了这个错 
 
