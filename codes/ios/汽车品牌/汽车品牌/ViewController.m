@@ -97,9 +97,9 @@
 //    cell.accessoryView = [[UISwitch alloc] init];
 //
 //    //设置选中的背景的颜色
-//    UIView * bgView = [[UIView alloc]init];
-//    bgView.backgroundColor = [UIColor greenColor];
-//    cell.selectedBackgroundView = bgView;
+    UIView * bgView = [[UIView alloc]init];
+    bgView.backgroundColor = [UIColor greenColor];
+    cell.selectedBackgroundView = bgView;
 //------------------------------------设置背景颜色----------------------------------
     
 
