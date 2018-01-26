@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "77BC76B11092CB2DDA2FC8938C918362953CF00D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "790393279B3C71BDFCC67688AED250EA3FBEC550" : 9223372036854775807,
+    "77BC76B11092CB2DDA2FC8938C918362953CF00D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6E718DC8-DCF8-4889-AD0A-197ACC16277B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "790393279B3C71BDFCC67688AED250EA3FBEC550" : "..\/..",
+    "77BC76B11092CB2DDA2FC8938C918362953CF00D" : "%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B5%81%E5%BC%8F%E5%B8%83%E5%B1%80\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "自定义流式布局",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "自定义流式布局.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/to-explore-future\/-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "77BC76B11092CB2DDA2FC8938C918362953CF00D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/to-explore-future\/ZQNotes.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "790393279B3C71BDFCC67688AED250EA3FBEC550"
+    }
+  ]
+}

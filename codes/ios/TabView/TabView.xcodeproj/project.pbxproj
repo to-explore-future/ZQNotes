@@ -118,6 +118,7 @@
 				TargetAttributes = {
 					1B93AD7F1FA1D67F00AB483E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W8LGJ689XV;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -280,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W8LGJ689XV;
 				INFOPLIST_FILE = TabView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zq.TabView;
@@ -291,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W8LGJ689XV;
 				INFOPLIST_FILE = TabView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zq.TabView;

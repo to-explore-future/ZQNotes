@@ -38,9 +38,9 @@
     
     //隐藏导航栏
     //这个是navigationController 的一个属性
-    self.navigationController.navigationBarHidden = YES;
+    self.navigationController.navigationBarHidden = NO;
     //这个方法是 UIView 中的一个属性
-    self.navigationController.navigationBar.hidden = YES;
+    self.navigationController.navigationBar.hidden = NO;
     
     
     
