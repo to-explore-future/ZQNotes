@@ -63,11 +63,12 @@ end
 组后 都写好之后 呢  `pod install`
 
 #### 常用的一些三方库 
-pod 'AFNetworking', '~> 3.1.0'
-pod 'SDWebImage', '~> 4.1.2'
-pod 'Masonry', '~> 1.1.0'
-pod 'YYKit', '~> 1.0.9'
-pod 'AMapNavi', '~> 5.3.0'
+- pod 'AFNetworking', '~> 3.1.0' 
+- pod 'SDWebImage', '~> 4.1.2'
+- pod 'Masonry', '~> 1.1.0'
+- pod 'YYKit', '~> 1.0.9'
+- pod 'AMapNavi', '~> 5.3.0'
+
 
  
  
