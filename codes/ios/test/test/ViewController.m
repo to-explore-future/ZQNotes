@@ -2,8 +2,8 @@
 //  ViewController.m
 //  test
 //
-//  Created by to-explore-future on 17/11/28.
-//  Copyright © 2017年 to-explore-future. All rights reserved.
+//  Created by sharingmobile on 2018/2/7.
+//  Copyright © 2018年 sharingmobile. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -16,8 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.view setBackgroundColor:[UIColor redColor]];
     // Do any additional setup after loading the view, typically from a nib.
-    
 }
 
 
