@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA4707BA204FCFD300978019 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4707B9204FCFD300978019 /* AppDelegate.m */; };
+		CA4707BD204FCFD300978019 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4707BC204FCFD300978019 /* ViewController.m */; };
+		CA4707C0204FCFD300978019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4707BE204FCFD300978019 /* Main.storyboard */; };
+		CA4707C2204FCFD300978019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA4707C1204FCFD300978019 /* Assets.xcassets */; };
+		CA4707C5204FCFD300978019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4707C3204FCFD300978019 /* LaunchScreen.storyboard */; };
+		CA4707C8204FCFD300978019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4707C7204FCFD300978019 /* main.m */; };
+		CA4707D0204FD02000978019 /* Radar.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4707CF204FD02000978019 /* Radar.m */; };
+		CA470801205123ED00978019 /* FingerWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA470800205123ED00978019 /* FingerWaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA4707B5204FCFD300978019 /* 水波纹按钮练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "水波纹按钮练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA4707B8204FCFD300978019 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA4707B9204FCFD300978019 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA4707BB204FCFD300978019 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA4707BC204FCFD300978019 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA4707BF204FCFD300978019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA4707C1204FCFD300978019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA4707C4204FCFD300978019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA4707C6204FCFD300978019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4707C7204FCFD300978019 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA4707CE204FD02000978019 /* Radar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Radar.h; sourceTree = "<group>"; };
+		CA4707CF204FD02000978019 /* Radar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Radar.m; sourceTree = "<group>"; };
+		CA4707FF205123ED00978019 /* FingerWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerWaveView.h; sourceTree = "<group>"; };
+		CA470800205123ED00978019 /* FingerWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerWaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA4707B2204FCFD300978019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA4707AC204FCFD300978019 = {
+			isa = PBXGroup;
+			children = (
+				CA4707B7204FCFD300978019 /* 水波纹按钮练习 */,
+				CA4707B6204FCFD300978019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA4707B6204FCFD300978019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA4707B5204FCFD300978019 /* 水波纹按钮练习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA4707B7204FCFD300978019 /* 水波纹按钮练习 */ = {
+			isa = PBXGroup;
+			children = (
+				CA4707FF205123ED00978019 /* FingerWaveView.h */,
+				CA470800205123ED00978019 /* FingerWaveView.m */,
+				CA4707B8204FCFD300978019 /* AppDelegate.h */,
+				CA4707B9204FCFD300978019 /* AppDelegate.m */,
+				CA4707BB204FCFD300978019 /* ViewController.h */,
+				CA4707BC204FCFD300978019 /* ViewController.m */,
+				CA4707BE204FCFD300978019 /* Main.storyboard */,
+				CA4707C1204FCFD300978019 /* Assets.xcassets */,
+				CA4707C3204FCFD300978019 /* LaunchScreen.storyboard */,
+				CA4707C6204FCFD300978019 /* Info.plist */,
+				CA4707C7204FCFD300978019 /* main.m */,
+				CA4707CE204FD02000978019 /* Radar.h */,
+				CA4707CF204FD02000978019 /* Radar.m */,
+			);
+			path = "水波纹按钮练习";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA4707B4204FCFD300978019 /* 水波纹按钮练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA4707CB204FCFD300978019 /* Build configuration list for PBXNativeTarget "水波纹按钮练习" */;
+			buildPhases = (
+				CA4707B1204FCFD300978019 /* Sources */,
+				CA4707B2204FCFD300978019 /* Frameworks */,
+				CA4707B3204FCFD300978019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "水波纹按钮练习";
+			productName = "水波纹按钮练习";
+			productReference = CA4707B5204FCFD300978019 /* 水波纹按钮练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA4707AD204FCFD300978019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zq;
+				TargetAttributes = {
+					CA4707B4204FCFD300978019 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CA4707B0204FCFD300978019 /* Build configuration list for PBXProject "水波纹按钮练习" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA4707AC204FCFD300978019;
+			productRefGroup = CA4707B6204FCFD300978019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA4707B4204FCFD300978019 /* 水波纹按钮练习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA4707B3204FCFD300978019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4707C5204FCFD300978019 /* LaunchScreen.storyboard in Resources */,
+				CA4707C2204FCFD300978019 /* Assets.xcassets in Resources */,
+				CA4707C0204FCFD300978019 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA4707B1204FCFD300978019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4707D0204FD02000978019 /* Radar.m in Sources */,
+				CA4707BD204FCFD300978019 /* ViewController.m in Sources */,
+				CA470801205123ED00978019 /* FingerWaveView.m in Sources */,
+				CA4707C8204FCFD300978019 /* main.m in Sources */,
+				CA4707BA204FCFD300978019 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA4707BE204FCFD300978019 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA4707BF204FCFD300978019 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA4707C3204FCFD300978019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA4707C4204FCFD300978019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA4707C9204FCFD300978019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA4707CA204FCFD300978019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA4707CC204FCFD300978019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "水波纹按钮练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.to-explore-future.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA4707CD204FCFD300978019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "水波纹按钮练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.to-explore-future.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA4707B0204FCFD300978019 /* Build configuration list for PBXProject "水波纹按钮练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4707C9204FCFD300978019 /* Debug */,
+				CA4707CA204FCFD300978019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA4707CB204FCFD300978019 /* Build configuration list for PBXNativeTarget "水波纹按钮练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA4707CC204FCFD300978019 /* Debug */,
+				CA4707CD204FCFD300978019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA4707AD204FCFD300978019 /* Project object */;
+}

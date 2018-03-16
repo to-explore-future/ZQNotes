@@ -1,0 +1,15 @@
+PODS:
+  - JPNavigationController (2.0.2)
+  - JRSwizzle (1.0)
+
+DEPENDENCIES:
+  - JPNavigationController (~> 2.0.1)
+  - JRSwizzle
+
+SPEC CHECKSUMS:
+  JPNavigationController: 4bd27cad6d0bd559313d5c4d0ce2bf7d444c039c
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+
+PODFILE CHECKSUM: 6d98800b8e7782fd1ea1576953095112870f4339
+
+COCOAPODS: 1.4.0

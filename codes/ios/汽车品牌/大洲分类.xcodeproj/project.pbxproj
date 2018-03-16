@@ -15,7 +15,6 @@
 		1B7089FF1FC56CD6007FB292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7089FD1FC56CD6007FB292 /* LaunchScreen.storyboard */; };
 		1B708A071FC56D23007FB292 /* continent.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B708A061FC56D23007FB292 /* continent.plist */; };
 		1B708A0A1FC572A6007FB292 /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B708A091FC572A6007FB292 /* CellModel.m */; };
-		1B708A0C1FC5968E007FB292 /* gold_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B708A0B1FC5968E007FB292 /* gold_32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		1B708A061FC56D23007FB292 /* continent.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = continent.plist; sourceTree = "<group>"; };
 		1B708A081FC572A6007FB292 /* CellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
 		1B708A091FC572A6007FB292 /* CellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
-		1B708A0B1FC5968E007FB292 /* gold_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gold_32.png; path = ../../../../../../../Desktop/res/gold_32.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +82,6 @@
 		1B7089EF1FC56CD6007FB292 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B708A0B1FC5968E007FB292 /* gold_32.png */,
 				1B7089F01FC56CD6007FB292 /* main.m */,
 				1B708A061FC56D23007FB292 /* continent.plist */,
 			);
@@ -153,7 +150,6 @@
 				1B708A071FC56D23007FB292 /* continent.plist in Resources */,
 				1B7089FC1FC56CD6007FB292 /* Assets.xcassets in Resources */,
 				1B7089FA1FC56CD6007FB292 /* Main.storyboard in Resources */,
-				1B708A0C1FC5968E007FB292 /* gold_32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

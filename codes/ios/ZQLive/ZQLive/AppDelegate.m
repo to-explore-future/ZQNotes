@@ -20,6 +20,8 @@
     // Override point for customization after application launch.
     ZQTabBarViewController * root = [[ZQTabBarViewController alloc] init];
     self.window.rootViewController = root;
+    NSLog(@"ladjlfkdfl");
+    NSLog(@"ladjlfkdfl");
     return YES;
 }
 
