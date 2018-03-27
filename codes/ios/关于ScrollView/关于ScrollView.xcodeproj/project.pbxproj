@@ -13,13 +13,8 @@
 		1B8DC8711FBFD3D00051284E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DC86F1FBFD3D00051284E /* Main.storyboard */; };
 		1B8DC8731FBFD3D00051284E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DC8721FBFD3D00051284E /* Assets.xcassets */; };
 		1B8DC8761FBFD3D00051284E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DC8741FBFD3D00051284E /* LaunchScreen.storyboard */; };
-		1B8DC8801FC002B10051284E /* ViewControllerHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DC87E1FC002B10051284E /* ViewControllerHome.m */; };
 		1B8DC8811FC002B10051284E /* ViewControllerHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DC87F1FC002B10051284E /* ViewControllerHome.xib */; };
-		1B8DC8871FC005740051284E /* welcom_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DC8821FC005740051284E /* welcom_01.jpg */; };
-		1B8DC8881FC005740051284E /* welcom_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DC8831FC005740051284E /* welcom_04.jpg */; };
-		1B8DC8891FC005740051284E /* welcom_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DC8841FC005740051284E /* welcom_05.jpg */; };
-		1B8DC88A1FC005740051284E /* welcom_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DC8851FC005740051284E /* welcom_02.jpg */; };
-		1B8DC88B1FC005740051284E /* welcom_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DC8861FC005740051284E /* welcom_03.jpg */; };
+		CA5067092068F5B9005CEFD3 /* ViewControllerHome.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5067082068F5B9005CEFD3 /* ViewControllerHome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,13 +29,8 @@
 		1B8DC8751FBFD3D00051284E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B8DC8771FBFD3D00051284E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B8DC87D1FC002B10051284E /* ViewControllerHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerHome.h; sourceTree = "<group>"; };
-		1B8DC87E1FC002B10051284E /* ViewControllerHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerHome.m; sourceTree = "<group>"; };
 		1B8DC87F1FC002B10051284E /* ViewControllerHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerHome.xib; sourceTree = "<group>"; };
-		1B8DC8821FC005740051284E /* welcom_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = welcom_01.jpg; path = ../../../../../../../Desktop/res/welcom/welcom_01.jpg; sourceTree = "<group>"; };
-		1B8DC8831FC005740051284E /* welcom_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = welcom_04.jpg; path = ../../../../../../../Desktop/res/welcom/welcom_04.jpg; sourceTree = "<group>"; };
-		1B8DC8841FC005740051284E /* welcom_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = welcom_05.jpg; path = ../../../../../../../Desktop/res/welcom/welcom_05.jpg; sourceTree = "<group>"; };
-		1B8DC8851FC005740051284E /* welcom_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = welcom_02.jpg; path = ../../../../../../../Desktop/res/welcom/welcom_02.jpg; sourceTree = "<group>"; };
-		1B8DC8861FC005740051284E /* welcom_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = welcom_03.jpg; path = ../../../../../../../Desktop/res/welcom/welcom_03.jpg; sourceTree = "<group>"; };
+		CA5067082068F5B9005CEFD3 /* ViewControllerHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerHome.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,13 +63,13 @@
 		1B8DC8651FBFD3D00051284E /* 关于ScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				CA5067082068F5B9005CEFD3 /* ViewControllerHome.m */,
 				1B8DC8691FBFD3D00051284E /* AppDelegate.h */,
 				1B8DC86A1FBFD3D00051284E /* AppDelegate.m */,
 				1B8DC86C1FBFD3D00051284E /* ViewController.h */,
 				1B8DC86D1FBFD3D00051284E /* ViewController.m */,
 				1B8DC86F1FBFD3D00051284E /* Main.storyboard */,
 				1B8DC87D1FC002B10051284E /* ViewControllerHome.h */,
-				1B8DC87E1FC002B10051284E /* ViewControllerHome.m */,
 				1B8DC87F1FC002B10051284E /* ViewControllerHome.xib */,
 				1B8DC8721FBFD3D00051284E /* Assets.xcassets */,
 				1B8DC8741FBFD3D00051284E /* LaunchScreen.storyboard */,
@@ -92,11 +82,6 @@
 		1B8DC8661FBFD3D00051284E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B8DC8821FC005740051284E /* welcom_01.jpg */,
-				1B8DC8831FC005740051284E /* welcom_04.jpg */,
-				1B8DC8841FC005740051284E /* welcom_05.jpg */,
-				1B8DC8851FC005740051284E /* welcom_02.jpg */,
-				1B8DC8861FC005740051284E /* welcom_03.jpg */,
 				1B8DC8671FBFD3D00051284E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -160,15 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B8DC8871FC005740051284E /* welcom_01.jpg in Resources */,
 				1B8DC8761FBFD3D00051284E /* LaunchScreen.storyboard in Resources */,
-				1B8DC8881FC005740051284E /* welcom_04.jpg in Resources */,
 				1B8DC8731FBFD3D00051284E /* Assets.xcassets in Resources */,
 				1B8DC8711FBFD3D00051284E /* Main.storyboard in Resources */,
-				1B8DC8891FC005740051284E /* welcom_05.jpg in Resources */,
-				1B8DC88A1FC005740051284E /* welcom_02.jpg in Resources */,
 				1B8DC8811FC002B10051284E /* ViewControllerHome.xib in Resources */,
-				1B8DC88B1FC005740051284E /* welcom_03.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +162,7 @@
 				1B8DC86E1FBFD3D00051284E /* ViewController.m in Sources */,
 				1B8DC86B1FBFD3D00051284E /* AppDelegate.m in Sources */,
 				1B8DC8681FBFD3D00051284E /* main.m in Sources */,
-				1B8DC8801FC002B10051284E /* ViewControllerHome.m in Sources */,
+				CA5067092068F5B9005CEFD3 /* ViewControllerHome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +317,7 @@
 				1B8DC87C1FBFD3D00051284E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
