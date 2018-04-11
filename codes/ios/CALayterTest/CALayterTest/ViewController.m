@@ -36,6 +36,15 @@
     //测试 retain
     id obj = [[NSObject alloc] init];
     
+    //测试内存暴涨吗
+    for (int i = 0; i < 10000; ++i) {
+        NSString *str = @"Abc";
+        str = [str lowercaseString];
+        str = [str stringByAppendingString:@"xyz"];
+        
+        NSLog(@"%@", str);
+    }
+    
 }
 
 
