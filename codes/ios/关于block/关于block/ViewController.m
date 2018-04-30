@@ -86,7 +86,6 @@ MyBlock addBlock1 = ^(int x,int y){
     };
     hello();
     
-    fragment * adf;
 }
 
 //block作为函数参数
@@ -114,12 +113,15 @@ void userBlockForC(  int (^aBlock) (int a,int b)  ) {
 }
 
 -(void)blockLocalVaribal{
-    int local = 100;
+    //block中修改局部变量要 加 __block
+    __block int local = 100;
     void (^myBlock)(void) = ^{
+        local = 400;
         NSLog(@"global = %d",local);
     };
-    local = 200;
+//    local = 200;
     myBlock();
+    NSLog(@"local = %d",local);
 }
 
 @end
