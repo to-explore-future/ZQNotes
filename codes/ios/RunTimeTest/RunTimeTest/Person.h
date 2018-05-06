@@ -8,7 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject
+@interface Person : NSObject{
+    int a;
+    int b;
+    int c;
+    int d;
+}
+
+@property(nonatomic,strong)NSArray * arr;
 
 + (void)eat;
 
@@ -17,5 +24,7 @@
 - (void)sleep;
 
 - (void)drink;
+
+-(void)getAllIvars;
 
 @end

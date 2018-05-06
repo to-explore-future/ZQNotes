@@ -7,8 +7,15 @@
 //
 
 #import "UIImage+addPostFix.h"
+#import <objc/runtime.h>//表示引入系统的库文件
 
 @implementation UIImage (addPostFix)
+
++ (void)load{
+    Method m1 = class_getClassMethod([UIImage class], @selector(imageNamed:));
+    Method m2 = class_getClassMethod([UIImage class], @selector(zq_imageNamed:));
+    method_exchangeImplementations(m1, m2);
+}
 
 /**
  *  UIImage中 有一个方法 setImage 项目中所有的使用这个方法的地方 都是传入了一个
@@ -20,9 +27,19 @@
  *  这个时候 我如果扩展系统的SDK的源码(开闭原则),那么我只需要扩展源码,而不用改动成千上万的地方
  */
 
-+ (UIImage *)zq_imageNamed(NSString *)name{
-    
+/**
+ *  所有的那么 后面都加上 _ios7
+ */
++ (UIImage *)zq_imageNamed:(NSString *)name{
+    //假设 针对某一条件 进行判断  比如                
+    double version = [[UIDevice currentDevice].systemVersion doubleValue];
+    if(version >= 7.0){
+        name = [name stringByAppendingString:@"_ios7"];
+    }
+    return [UIImage zq_imageNamed:name];
 }
+
+
 
 
 @end

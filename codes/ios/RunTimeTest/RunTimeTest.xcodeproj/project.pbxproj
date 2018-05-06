@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA97521A2099BCF700F88982 /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9752192099BCF700F88982 /* NSObject+Category.m */; };
 		CAE4376920942224000A4632 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE4376820942224000A4632 /* AppDelegate.m */; };
 		CAE4376C20942224000A4632 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE4376B20942224000A4632 /* ViewController.m */; };
 		CAE4376F20942224000A4632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE4376D20942224000A4632 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA9752182099BCF700F88982 /* NSObject+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Category.h"; sourceTree = "<group>"; };
+		CA9752192099BCF700F88982 /* NSObject+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Category.m"; sourceTree = "<group>"; };
 		CAE4376420942224000A4632 /* RunTimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE4376720942224000A4632 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CAE4376820942224000A4632 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				CAE4377E2094225A000A4632 /* Person.m */,
 				CAE4378620946F11000A4632 /* UIImage+addPostFix.h */,
 				CAE4378720946F11000A4632 /* UIImage+addPostFix.m */,
+				CA9752182099BCF700F88982 /* NSObject+Category.h */,
+				CA9752192099BCF700F88982 /* NSObject+Category.m */,
 			);
 			path = RunTimeTest;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				CAE437772094222A000A4632 /* main.m in Sources */,
 				CAE4377F2094225A000A4632 /* Person.m in Sources */,
 				CAE4376920942224000A4632 /* AppDelegate.m in Sources */,
+				CA97521A2099BCF700F88982 /* NSObject+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
