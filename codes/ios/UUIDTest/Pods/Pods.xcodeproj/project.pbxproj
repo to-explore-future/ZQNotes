@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19130D9771F61A6F6BBCBF7D86F770AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		401DEDA42A51C68EB12AC6D69ABBB1C8 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C93FB7CE6C11D28856AF731ACE826 /* SSKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5028703E814659CF2151DE2CD3A186F7 /* SSKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77504E20FE47EEB87BA11F43C8E14798 /* SSKeychain-dummy.m */; };
+		7C72F6D8021A8A2F80CCB61D729E96D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */; };
+		81A2417963C2C767D7AEBF5237B67246 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC9251AFAF3072F6B98B502BE5C67DC /* SSKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		865CC0F6A3CA2209F9843C91B67204E5 /* SSKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB765CB9EC2FA0E82E605EBBAFC45EE /* SSKeychainQuery.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1027B7118687B5B74B5EA132EEB27E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */; };
+		DA86C561A19F1B1DCAFC9FD1DFDFA563 /* Pods-UUIDTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68375C7A4818091BE8AFCD06598682EA /* Pods-UUIDTest-dummy.m */; };
+		FC9DE429B2E83C827DB346807F024C33 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA55F1CE1F18293B1D49BAF18DDE776 /* SSKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F795A5273B1EC8661E883BACF24F8833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED677648C5E5E5EA0AFFEC306AA43414;
+			remoteInfo = SSKeychain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0945A7849C5C413D10A2FE4DBA51C1F0 /* Pods-UUIDTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UUIDTest-frameworks.sh"; sourceTree = "<group>"; };
+		11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		12CDE03AF74BDB9A5C75474F153B9256 /* Pods-UUIDTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UUIDTest-resources.sh"; sourceTree = "<group>"; };
+		3AE55904A0195D6BE1CD99522B650BF9 /* Pods-UUIDTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUIDTest.release.xcconfig"; sourceTree = "<group>"; };
+		3CA55F1CE1F18293B1D49BAF18DDE776 /* SSKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychain.m; path = Sources/SSKeychain.m; sourceTree = "<group>"; };
+		5AA60390C5FEEE9C42DA1EB0BF3D2379 /* Pods-UUIDTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UUIDTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B2C93FB7CE6C11D28856AF731ACE826 /* SSKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSKeychainQuery.m; path = Sources/SSKeychainQuery.m; sourceTree = "<group>"; };
+		5B577709959AB344039F83E12D42674C /* libPods-UUIDTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-UUIDTest.a"; path = "libPods-UUIDTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68375C7A4818091BE8AFCD06598682EA /* Pods-UUIDTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UUIDTest-dummy.m"; sourceTree = "<group>"; };
+		6E05B669323E4663F97EF000831BA620 /* SSKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSKeychain.xcconfig; sourceTree = "<group>"; };
+		77504E20FE47EEB87BA11F43C8E14798 /* SSKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSKeychain-dummy.m"; sourceTree = "<group>"; };
+		7D051C468AA1C458C77894E3B13A6EFA /* SSKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSKeychain-prefix.pch"; sourceTree = "<group>"; };
+		8BAFBD68C5635B238EB0C0F5528D4A01 /* Pods-UUIDTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UUIDTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AED379F1A9ACD90A2AA1309F800D3C1F /* libSSKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSSKeychain.a; path = libSSKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE12B9E2B6E0B3C20CC999932937B21C /* SSKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SSKeychain.bundle; path = Support/SSKeychain.bundle; sourceTree = "<group>"; };
+		C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C99DD77FEA9C8689D78D171B20F61725 /* Pods-UUIDTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUIDTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EDC9251AFAF3072F6B98B502BE5C67DC /* SSKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychain.h; path = Sources/SSKeychain.h; sourceTree = "<group>"; };
+		EFB765CB9EC2FA0E82E605EBBAFC45EE /* SSKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSKeychainQuery.h; path = Sources/SSKeychainQuery.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28DDD0DB149441049092B1FAF92490D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C72F6D8021A8A2F80CCB61D729E96D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B8A873ADFFD5676FB042B9A0866222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19130D9771F61A6F6BBCBF7D86F770AC /* Foundation.framework in Frameworks */,
+				B1027B7118687B5B74B5EA132EEB27E1 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277E633E18CE27A95C9F901B470B3C57 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AAF2752E979968AD3A1B85B33228D4D /* Pods-UUIDTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3506E696DD1BC60EAE3128B33A73BA4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E05B669323E4663F97EF000831BA620 /* SSKeychain.xcconfig */,
+				77504E20FE47EEB87BA11F43C8E14798 /* SSKeychain-dummy.m */,
+				7D051C468AA1C458C77894E3B13A6EFA /* SSKeychain-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSKeychain";
+			sourceTree = "<group>";
+		};
+		3F7DF3EBA2E30A129F7CE4C2B62A866A /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				EDC9251AFAF3072F6B98B502BE5C67DC /* SSKeychain.h */,
+				3CA55F1CE1F18293B1D49BAF18DDE776 /* SSKeychain.m */,
+				EFB765CB9EC2FA0E82E605EBBAFC45EE /* SSKeychainQuery.h */,
+				5B2C93FB7CE6C11D28856AF731ACE826 /* SSKeychainQuery.m */,
+				EA0C0D9AA54ADE5B2E9DBAF6D160EECF /* Resources */,
+				3506E696DD1BC60EAE3128B33A73BA4F /* Support Files */,
+			);
+			name = SSKeychain;
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F990579C2E52276FD3C28227B49D60B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F990579C2E52276FD3C28227B49D60B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				11C10A31CD5CFA3EFE266394471B152E /* Foundation.framework */,
+				C085E02FF89804F50ADDA04F5A586E94 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68D4E237A6E6E23C035201236893A69E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B577709959AB344039F83E12D42674C /* libPods-UUIDTest.a */,
+				AED379F1A9ACD90A2AA1309F800D3C1F /* libSSKeychain.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AAF2752E979968AD3A1B85B33228D4D /* Pods-UUIDTest */ = {
+			isa = PBXGroup;
+			children = (
+				5AA60390C5FEEE9C42DA1EB0BF3D2379 /* Pods-UUIDTest-acknowledgements.markdown */,
+				8BAFBD68C5635B238EB0C0F5528D4A01 /* Pods-UUIDTest-acknowledgements.plist */,
+				68375C7A4818091BE8AFCD06598682EA /* Pods-UUIDTest-dummy.m */,
+				0945A7849C5C413D10A2FE4DBA51C1F0 /* Pods-UUIDTest-frameworks.sh */,
+				12CDE03AF74BDB9A5C75474F153B9256 /* Pods-UUIDTest-resources.sh */,
+				C99DD77FEA9C8689D78D171B20F61725 /* Pods-UUIDTest.debug.xcconfig */,
+				3AE55904A0195D6BE1CD99522B650BF9 /* Pods-UUIDTest.release.xcconfig */,
+			);
+			name = "Pods-UUIDTest";
+			path = "Target Support Files/Pods-UUIDTest";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				A391E83FBFD8A7CEE61F49AD42D99D6B /* Pods */,
+				68D4E237A6E6E23C035201236893A69E /* Products */,
+				277E633E18CE27A95C9F901B470B3C57 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A391E83FBFD8A7CEE61F49AD42D99D6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F7DF3EBA2E30A129F7CE4C2B62A866A /* SSKeychain */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA0C0D9AA54ADE5B2E9DBAF6D160EECF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE12B9E2B6E0B3C20CC999932937B21C /* SSKeychain.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F9DAEE2E54A0C25199629FCCDD390A40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A2417963C2C767D7AEBF5237B67246 /* SSKeychain.h in Headers */,
+				865CC0F6A3CA2209F9843C91B67204E5 /* SSKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A536DEF5F9DD4989E72BB2FC50FCAC5 /* Pods-UUIDTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E2C2770A875BE04280BACA5C6FB894 /* Build configuration list for PBXNativeTarget "Pods-UUIDTest" */;
+			buildPhases = (
+				B2C0A246D8D126AFC9CCD72718707BE4 /* Sources */,
+				28DDD0DB149441049092B1FAF92490D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E038F81AEAEF590AD991319FC2A50BA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-UUIDTest";
+			productName = "Pods-UUIDTest";
+			productReference = 5B577709959AB344039F83E12D42674C /* libPods-UUIDTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ED677648C5E5E5EA0AFFEC306AA43414 /* SSKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B7051B08667AF37307795006B73963 /* Build configuration list for PBXNativeTarget "SSKeychain" */;
+			buildPhases = (
+				E26EC5A7C4EF5B9460043DB2CEBD423C /* Sources */,
+				B6B8A873ADFFD5676FB042B9A0866222 /* Frameworks */,
+				F9DAEE2E54A0C25199629FCCDD390A40 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSKeychain;
+			productName = SSKeychain;
+			productReference = AED379F1A9ACD90A2AA1309F800D3C1F /* libSSKeychain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 68D4E237A6E6E23C035201236893A69E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A536DEF5F9DD4989E72BB2FC50FCAC5 /* Pods-UUIDTest */,
+				ED677648C5E5E5EA0AFFEC306AA43414 /* SSKeychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2C0A246D8D126AFC9CCD72718707BE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA86C561A19F1B1DCAFC9FD1DFDFA563 /* Pods-UUIDTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26EC5A7C4EF5B9460043DB2CEBD423C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5028703E814659CF2151DE2CD3A186F7 /* SSKeychain-dummy.m in Sources */,
+				FC9DE429B2E83C827DB346807F024C33 /* SSKeychain.m in Sources */,
+				401DEDA42A51C68EB12AC6D69ABBB1C8 /* SSKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E038F81AEAEF590AD991319FC2A50BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSKeychain;
+			target = ED677648C5E5E5EA0AFFEC306AA43414 /* SSKeychain */;
+			targetProxy = F795A5273B1EC8661E883BACF24F8833 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F508DD81B06636F3F5ABC9EEAB66599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99DD77FEA9C8689D78D171B20F61725 /* Pods-UUIDTest.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		349B17E24194646741D319E7E88873A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E05B669323E4663F97EF000831BA620 /* SSKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B508324CA714724619289761DE6ECFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AE55904A0195D6BE1CD99522B650BF9 /* Pods-UUIDTest.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A20B0BDFC4838E55DCAD094ED2792393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C9653E2FC586B5AE25E207221D56664F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E05B669323E4663F97EF000831BA620 /* SSKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SSKeychain/SSKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21B7051B08667AF37307795006B73963 /* Build configuration list for PBXNativeTarget "SSKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9653E2FC586B5AE25E207221D56664F /* Debug */,
+				349B17E24194646741D319E7E88873A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */,
+				A20B0BDFC4838E55DCAD094ED2792393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E2C2770A875BE04280BACA5C6FB894 /* Build configuration list for PBXNativeTarget "Pods-UUIDTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F508DD81B06636F3F5ABC9EEAB66599 /* Debug */,
+				5B508324CA714724619289761DE6ECFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
