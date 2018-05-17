@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA129F2F20A9963000D91565 /* ips.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA129F2E20A9963000D91565 /* ips.txt */; };
 		CACB12C820A3D6AC003A83DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB12C720A3D6AC003A83DC /* AppDelegate.m */; };
 		CACB12CB20A3D6AC003A83DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB12CA20A3D6AC003A83DC /* ViewController.m */; };
 		CACB12CE20A3D6AC003A83DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACB12CC20A3D6AC003A83DC /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		510D614577A26510781EF0B1 /* libPods-UUIDTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UUIDTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B95A23B829C42F8171EBFB /* Pods-UUIDTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUIDTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-UUIDTest/Pods-UUIDTest.release.xcconfig"; sourceTree = "<group>"; };
+		CA129F2E20A9963000D91565 /* ips.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ips.txt; sourceTree = "<group>"; };
 		CACB12C320A3D6AC003A83DC /* UUIDTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UUIDTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACB12C620A3D6AC003A83DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CACB12C720A3D6AC003A83DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,9 +67,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CA129F2D20A9961C00D91565 /* ips */ = {
+			isa = PBXGroup;
+			children = (
+				CA129F2E20A9963000D91565 /* ips.txt */,
+			);
+			path = ips;
+			sourceTree = "<group>";
+		};
 		CACB12BA20A3D6AC003A83DC = {
 			isa = PBXGroup;
 			children = (
+				CA129F2D20A9961C00D91565 /* ips */,
 				CACB12C520A3D6AC003A83DC /* UUIDTest */,
 				CACB12C420A3D6AC003A83DC /* Products */,
 				8783001B46E84B16F985F96F /* Pods */,
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CACB12D320A3D6B2003A83DC /* LaunchScreen.storyboard in Resources */,
+				CA129F2F20A9963000D91565 /* ips.txt in Resources */,
 				CACB12D020A3D6B2003A83DC /* Assets.xcassets in Resources */,
 				CACB12CE20A3D6AC003A83DC /* Main.storyboard in Resources */,
 			);
@@ -370,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8LGJ689XV;
 				INFOPLIST_FILE = UUIDTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8LGJ689XV;
 				INFOPLIST_FILE = UUIDTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
