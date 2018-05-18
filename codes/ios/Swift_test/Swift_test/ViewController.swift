@@ -144,7 +144,32 @@ class ViewController: UIViewController {
             print("convert failed")
         }
         
-        //可选类型转换成功与否 可以作为判断的条件
+        //可选类型转换成功与否 可以作为判断的条件 让多个可选类型作为 判断条件
+        //只有所有的条件同时成立的时候 才会通过
+        if let a = Int("1"),let b = Int("2"),let c = Int("4") , a < b && b < c {
+            print("\(a) < \(b) && \(b) < \(c)")
+        }
+        
+        //断言的使用
+        let ages = -3
+        //如果是false 就会触发断言
+        //也可以这样理解:如果条件成立,代码才会继续往下执行 否则就会在这里报错
+//        assert(ages >= 0, "a person's age can't be less than zero")
+        
+        if ages > 10{
+            print("> 10")
+        }else if ages > 0 {
+            print("age > 0")
+        }else{
+//            assertionFailure("断言失败了");
+        }
+        
+        //还有一种写法 和 assertion 很相似
+        precondition(ages > 0, "a person's age can't be less than zero")
+        
+        
+        //总结一下  assert assertionFailure procondition  这些都是 swift 提供的一种让程序中断的手段
+        
         
         
     }
