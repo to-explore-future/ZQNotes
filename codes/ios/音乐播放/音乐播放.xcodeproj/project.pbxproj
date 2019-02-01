@@ -14,7 +14,7 @@
 		1B2DA2121FB57AB70008AFD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B2DA2111FB57AB70008AFD1 /* Assets.xcassets */; };
 		1B2DA2151FB57AB70008AFD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B2DA2131FB57AB70008AFD1 /* LaunchScreen.storyboard */; };
 		1B2DA21E1FB57EA90008AFD1 /* ZQAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2DA21D1FB57EA90008AFD1 /* ZQAudioTool.m */; };
-		1B2DA2201FB582C30008AFD1 /* 后来.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B2DA21F1FB582C30008AFD1 /* 后来.mp3 */; };
+		341647512204115300C5FBD2 /* 后来.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 341647502204115300C5FBD2 /* 后来.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		1B2DA2161FB57AB70008AFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B2DA21C1FB57EA90008AFD1 /* ZQAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZQAudioTool.h; path = "../../播放音效/播放音效/ZQAudioTool.h"; sourceTree = "<group>"; };
 		1B2DA21D1FB57EA90008AFD1 /* ZQAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZQAudioTool.m; path = "../../播放音效/播放音效/ZQAudioTool.m"; sourceTree = "<group>"; };
-		1B2DA21F1FB582C30008AFD1 /* 后来.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "后来.mp3"; path = "../../../../../../baiduyun/后来.mp3"; sourceTree = "<group>"; };
+		341647502204115300C5FBD2 /* 后来.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "后来.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		1B2DA2051FB57AB70008AFD1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B2DA21F1FB582C30008AFD1 /* 后来.mp3 */,
+				341647502204115300C5FBD2 /* 后来.mp3 */,
 				1B2DA2061FB57AB70008AFD1 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -145,8 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341647512204115300C5FBD2 /* 后来.mp3 in Resources */,
 				1B2DA2151FB57AB70008AFD1 /* LaunchScreen.storyboard in Resources */,
-				1B2DA2201FB582C30008AFD1 /* 后来.mp3 in Resources */,
 				1B2DA2121FB57AB70008AFD1 /* Assets.xcassets in Resources */,
 				1B2DA2101FB57AB70008AFD1 /* Main.storyboard in Resources */,
 			);
@@ -317,6 +317,7 @@
 				1B2DA21B1FB57AB70008AFD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

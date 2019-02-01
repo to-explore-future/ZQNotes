@@ -16,7 +16,7 @@
 @implementation ViewController
 
 - (IBAction)begin {
-    [ZQAudioTool playMusicWithMusicName:@"后来.mp"];
+    [ZQAudioTool playMusicWithMusicName:@"后来.mp3"];
 }
 - (IBAction)pause {
     [ZQAudioTool pauseMusicWithMusicName:@"后来.mp3"];
