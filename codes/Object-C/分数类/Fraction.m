@@ -51,12 +51,14 @@
     }
 
 
+//约分
+//关于求两个数的最大公约数：网上有计算方法：求差法 求模法 为什么这么能求出来，不明白，
 - (void)reduce{
     NSInteger divisor = [self numerator];
     NSInteger dividend = [self denominator];
         //所有的余数都给了 divident
     while (dividend) {
-        NSInteger mob = divisor % dividend;
+        NSInteger mob = divisor % dividend; //求余数
         divisor = dividend;
         dividend = mob;
     }
