@@ -155,6 +155,7 @@
 				TargetAttributes = {
 					1B81115C1FE0BB7500543210 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W8LGJ689XV;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -373,6 +374,7 @@
 			baseConfigurationReference = FCA769396A87239DEF4B5D4E /* Pods-关于高德地图 demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W8LGJ689XV;
 				INFOPLIST_FILE = "关于高德地图 demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zq.-------demo";
@@ -385,6 +387,7 @@
 			baseConfigurationReference = 139CA18D206F389606077B3F /* Pods-关于高德地图 demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W8LGJ689XV;
 				INFOPLIST_FILE = "关于高德地图 demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zq.-------demo";

@@ -34,9 +34,9 @@
     for (int i = 0 ; i < 5; i++) {
         
         NSString    * imageName     = [NSString stringWithFormat:@"welcom_%02d",i+1];
-        NSString    * filePath      = [[NSBundle mainBundle] pathForResource:imageName ofType:@"jpg"];
-//        UIImage     * image         = [UIImage imageNamed:imageName];
-        UIImage     * image         = [UIImage imageWithContentsOfFile:filePath];
+//        NSString    * filePath      = [[NSBundle mainBundle] pathForResource:imageName ofType:@"jpeg"];
+        UIImage     * image         = [UIImage imageNamed:imageName];
+//        UIImage     * image         = [UIImage imageWithContentsOfFile:filePath];
         
         UIImageView * imageView     = [[UIImageView alloc] initWithImage:image];
         CGFloat       x             = i * SCREEN_WIDTH;

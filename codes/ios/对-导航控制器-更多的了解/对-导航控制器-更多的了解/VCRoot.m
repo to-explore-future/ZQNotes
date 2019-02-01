@@ -42,9 +42,6 @@
     //这个方法是 UIView 中的一个属性
     self.navigationController.navigationBar.hidden = NO;
     
-    
-    
-    
     // toolbar
     // 显示工具栏
     self.navigationController.toolbarHidden = NO;
