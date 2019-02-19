@@ -17,16 +17,7 @@ class ViewController: UIViewController {
         basicOprators()
     }
     
-    
-    func basicOprators() {
-        //求余 余数只跟被除数有关系
-        let remainder = 9 % 4
-        let remainder1 = 9 % -4
-        let remainder2 = -9 % 4
-        let remainder3 = -9 % -4
-        print("remainder:\(remainder) remainder1:\(remainder1) remainder2:\(remainder2) remainder3:\(remainder3)")
-    }
-    
+    //基础部分
     fileprivate func basePart() {
         //各种进制的表示
         let decimalInteger = 17;
@@ -159,13 +150,66 @@ class ViewController: UIViewController {
         }
     }
     
+    //基本运算符
+    func basicOprators() {
+        //求余 余数只跟被除数有关系
+        let remainder = 9 % 4
+        let remainder1 = 9 % -4
+        let remainder2 = -9 % 4
+        let remainder3 = -9 % -4
+        print("remainder:\(remainder) remainder1:\(remainder1) remainder2:\(remainder2) remainder3:\(remainder3)")
+        
+        // == === :kotlin中 ==:比较的是值  ===：比较的是内存地址
+        // 那么在swift中，== 与 ===的区别是什么呢 以后解决
+        
+        //元组的比较：从左到会有按照元素的对应位置进行比较
+        if (6,1) > (5,10) {
+            print("在比较大小的时候，如果一个位置得出了大小关系，即使这个元组中还有剩下的元素没有比较完，比较运算还是结束了，如果得出相等的结果，那么运算就继续")
+        }
+        if (5,"string") == (5,"string") {
+            print("如果是 == 比较，必须元组中的所有的对应位置的元素都相等才能为 true，如果在从左到右比较的过程中发现有一个元素不相同，那么比较结束，得出结论false")
+        }
+        
+        //空合运算 ：对可选类型取值的运算符
+        // a = b ?? c //对b进行nil判断，如果b是nil，那么就取出c的值给a，如果b不是nil，那么就取出b的值，给a
+        //模拟一下
+        let b : Int? = nil // 5
+        let c = 8
+        let a = b ?? c
+        print("a = \(a)")
+        
+        
+        //区间运算
+        //1.闭区间运算符   1...5 表示 1-5 的一个闭区间
+        for index in 1...5{
+            print("index : \(index)")
+        }
+        
+        //半开区间  ->左闭右开 ？？有没有右闭左开的区间呢
+        let names = ["tom","Lili","jack","lucy"]
+        let count = names.count
+        for i in 0..<count{
+            print("name\(count + 1) : \(names[i])")
+        }
+        
+        //单侧区间  解释一下：单侧区间的值从哪里开始从哪里结束呢
+        //从数组的 开始角标开始，从数组的结束角标结束
+        for name in names[2...]{
+            print("单侧区间 2... :\(name)")
+        }
+        
+        for name in names[...2]{
+            print("单侧区间 ...2 : \(name)")
+        }
+        
+        //单侧区间也可以 结合半开区间 这样表示
+        for name in names[..<2]{
+            print("单侧区间 不包含最后一位 ..<2:\(name)")
+        }
+    }
     
-
     //swift 中的 方法关键字是fun kotlin中的方法关键字是 fun
     func canThrowAnError(a:String)throws{ //如果这个方法出了异常，这个方法会自动抛出异常
-        
-        
-        
         
     }
 
