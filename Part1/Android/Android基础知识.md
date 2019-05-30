@@ -178,7 +178,7 @@ public void onRestoreInstanceState(Bundle savedInstanceState) {
 **Fragment的生命周期和activity如何的一个关系**
 
 这我们引用本知识库里的一张图片：
-![Mou icon](https://github.com/GeniusVJR/LearningNotes/blob/master/Part1/Android/FlowchartDiagram.jpg?raw=true)
+![Mou icon](https://github.com/to-explore-future/ZQNotes/blob/master/Res/FlowchartDiagram.jpg)
 
 
 **为什么在Service中创建子线程而不是Activity中**
