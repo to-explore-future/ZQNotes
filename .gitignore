@@ -1,4 +1,4 @@
-# Built application files
+﻿# Built application files
 *.apk
 *.ap_
 
@@ -133,3 +133,4 @@ iOSInjectionProject/
 
 .DS_Store
 */.DS_Store
+

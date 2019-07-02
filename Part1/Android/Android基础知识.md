@@ -11,8 +11,7 @@
     一行（或一列）只控制一个控件的线性布局，所以当有很多控件需要在一个界面中列出时，可以用LinearLayout布局。
     此布局有一个需要格外注意的属性:``android:orientation=“horizontal|vertical``。
     
-    * 当`android:orientation="horizontal`时，*说明你希望将水平方向的布局交给**LinearLayout** *，其子元素的`android:layout_gravity="right|left"` 等控制水平方向的gravity值都是被忽略的，*此时**LinearLayout**中的子元素都是默认的按照水平从左向右来排*，我们可以用`android:layout_gravity="top|bottom"`等gravity值来控制垂直展示。
-    * 反之，可以知道 当`android:orientation="vertical`时，**LinearLayout**对其子元素展示上的的处理方式。
+   当`android:orientation="horizontal`时，*说明你希望将水平方向的布局交给**LinearLayout** *，其子元素的`android:layout_gravity="right|left"` 等控制水平方向的gravity值都是被忽略的，*此时**LinearLayout**中的子元素都是默认的按照水平从左向右来排*，我们可以用`android:layout_gravity="top|bottom"`等gravity值来控制垂直展示。反之，可以知道 当`android:orientation="vertical`时，**LinearLayout**对其子元素展示上的的处理方式。
 
 * AbsoluteLayout(绝对布局)
 
@@ -179,7 +178,7 @@ public void onRestoreInstanceState(Bundle savedInstanceState) {
 **Fragment的生命周期和activity如何的一个关系**
 
 这我们引用本知识库里的一张图片：
-![Mou icon](https://github.com/GeniusVJR/LearningNotes/blob/master/Part1/Android/FlowchartDiagram.jpg?raw=true)
+![Mou icon](https://github.com/to-explore-future/ZQNotes/blob/master/Res/FlowchartDiagram.jpg)
 
 
 **为什么在Service中创建子线程而不是Activity中**
